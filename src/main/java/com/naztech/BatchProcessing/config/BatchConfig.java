@@ -17,7 +17,6 @@ import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.core.task.TaskExecutor;
@@ -34,6 +33,8 @@ public class BatchConfig {
   private final PlatformTransactionManager transactionManager;
 
   private final JobExecutionListenerImpl listener;
+
+  private final BatchResourceHolder batchResourceHolder;
 
   @Value("${batch.csv.file:product_info.csv}")
   private String csvFilePath;
@@ -66,9 +67,13 @@ public class BatchConfig {
   @Bean
   @StepScope
   public FlatFileItemReader<ProductInfo> reader() {
+    Resource resource = batchResourceHolder.getResource();
+    if (resource == null) {
+      throw new IllegalStateException("No resource set for batch processing");
+    }
     return new FlatFileItemReaderBuilder<ProductInfo>()
         .name("itemReader")
-        .resource(new ClassPathResource(csvFilePath))
+        .resource(resource)
         .linesToSkip(1)
         .delimited()
         .names(csvFieldNames)
