@@ -1,7 +1,7 @@
-package com.naztech.BatchProcessing.controller;
-import com.naztech.BatchProcessing.config.BatchResourceHolder;
-import com.naztech.BatchProcessing.entity.ProductInfo;
-import com.naztech.BatchProcessing.service.ProductInfoService;
+package com.m23ITSolution.BatchProcessing.controller;
+import com.m23ITSolution.BatchProcessing.config.BatchResourceHolder;
+import com.m23ITSolution.BatchProcessing.entity.ProductInfo;
+import com.m23ITSolution.BatchProcessing.service.ProductInfoService;
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;

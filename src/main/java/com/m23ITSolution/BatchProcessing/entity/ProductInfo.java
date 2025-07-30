@@ -1,4 +1,4 @@
-package com.naztech.BatchProcessing.entity;
+package com.m23ITSolution.BatchProcessing.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

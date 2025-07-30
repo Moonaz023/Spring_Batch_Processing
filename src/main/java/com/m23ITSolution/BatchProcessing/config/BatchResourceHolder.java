@@ -1,4 +1,4 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.BatchProcessing.config;
 
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;

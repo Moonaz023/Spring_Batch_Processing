@@ -1,6 +1,6 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.BatchProcessing.config;
 
-import com.naztech.BatchProcessing.entity.ProductInfo;
+import com.m23ITSolution.BatchProcessing.entity.ProductInfo;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
