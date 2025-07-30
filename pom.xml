@@ -8,7 +8,7 @@
 		<version>3.2.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.naztech</groupId>
+	<groupId>com.m23ITSolution</groupId>
 	<artifactId>BatchProcessing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BatchProcessing</name>

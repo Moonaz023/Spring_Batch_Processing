@@ -1,4 +1,4 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.BatchStatus;

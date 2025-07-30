@@ -1,4 +1,4 @@
-package com.naztech.BatchProcessing;
+package com.m23ITSolution;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

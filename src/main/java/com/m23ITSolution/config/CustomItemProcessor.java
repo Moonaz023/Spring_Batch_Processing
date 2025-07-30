@@ -1,6 +1,6 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.config;
 
-import com.naztech.BatchProcessing.entity.ProductInfo;
+import com.m23ITSolution.entity.ProductInfo;
 import org.springframework.batch.item.ItemProcessor;
 
 public class CustomItemProcessor implements ItemProcessor<ProductInfo,ProductInfo> {
