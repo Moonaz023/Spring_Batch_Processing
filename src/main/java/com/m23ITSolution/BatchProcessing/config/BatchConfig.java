@@ -1,8 +1,8 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.BatchProcessing.config;
 
-import com.naztech.BatchProcessing.entity.BatchProgress;
-import com.naztech.BatchProcessing.entity.ProductInfo;
-import com.naztech.BatchProcessing.repository.BatchProgressRepository;
+import com.m23ITSolution.BatchProcessing.entity.BatchProgress;
+import com.m23ITSolution.BatchProcessing.entity.ProductInfo;
+import com.m23ITSolution.BatchProcessing.repository.BatchProgressRepository;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

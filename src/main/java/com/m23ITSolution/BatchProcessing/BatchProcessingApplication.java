@@ -1,4 +1,4 @@
-package com.naztech.BatchProcessing;
+package com.m23ITSolution.BatchProcessing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

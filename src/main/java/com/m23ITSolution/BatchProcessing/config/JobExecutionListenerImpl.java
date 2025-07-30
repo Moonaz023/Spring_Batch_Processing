@@ -1,7 +1,7 @@
-package com.naztech.BatchProcessing.config;
+package com.m23ITSolution.BatchProcessing.config;
 
-import com.naztech.BatchProcessing.entity.BatchProgress;
-import com.naztech.BatchProcessing.repository.BatchProgressRepository;
+import com.m23ITSolution.BatchProcessing.entity.BatchProgress;
+import com.m23ITSolution.BatchProcessing.repository.BatchProgressRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.BatchStatus;

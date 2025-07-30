@@ -1,5 +1,6 @@
-package com.naztech.BatchProcessing.entity;
+package com.m23ITSolution.BatchProcessing.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,17 +11,17 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "product_info", schema = "batch")
-public class ProductInfo {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-    private String description;
-    private double unitPrice;
+@Entity
+@Table(name = "batch_progress", schema = "batch")
+public class BatchProgress {
+
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Integer id;
+  private Integer lastLine;
+
 }

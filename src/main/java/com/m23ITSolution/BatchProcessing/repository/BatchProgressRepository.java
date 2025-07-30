@@ -1,6 +1,6 @@
-package com.naztech.BatchProcessing.repository;
+package com.m23ITSolution.BatchProcessing.repository;
 
-import com.naztech.BatchProcessing.entity.BatchProgress;
+import com.m23ITSolution.BatchProcessing.entity.BatchProgress;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

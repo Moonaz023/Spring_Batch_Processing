@@ -1,8 +1,8 @@
-package com.naztech.BatchProcessing.service.impl;
+package com.m23ITSolution.BatchProcessing.service.impl;
 
-import com.naztech.BatchProcessing.entity.ProductInfo;
-import com.naztech.BatchProcessing.repository.ProductInfoRepository;
-import com.naztech.BatchProcessing.service.ProductInfoService;
+import com.m23ITSolution.BatchProcessing.entity.ProductInfo;
+import com.m23ITSolution.BatchProcessing.service.ProductInfoService;
+import com.m23ITSolution.BatchProcessing.repository.ProductInfoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
